@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    <color name="black">#FF000000</color>-->
+
+    <color name="black">#000000</color>
+    <color name="teal_background">#2CD6C5</color>
+    <color name="purple_500">#6200EE</color>
+    <!--    <color name="teal_700">#018786</color>-->
+    <color name="teal_701">#05F4F2</color>
+    <color name="home_red">#d46969</color>
+    <color name="home_red2">#ad5553</color>
+    <color name="home_cyan">#228580</color>
+    <color name="home_cyan2">#015850</color>
+    <color name="home_yellow">#e0a315</color>
+    <color name="home_grey1">#cfd8dc</color>
+    <color name="home_grey2">#b0bec5</color>
+    <color name="home_grey3">#90a4ae</color>
+    <color name="home_grey4">#78909c</color>
+    <color name="home_grey5">#607d8b</color>
+    <color name="home_linkblue">#08519c</color>
+
+    <color name="teal_text">#00C2A8</color>
+    <color name="teal_button">#2DD5BF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white1">#BBECECF4</color>
+    <color name="home">#B2DAE5</color>
+    <color name="card_view">#1E2A38</color>
+    <color name="backgroundColor">#F4F7FC</color>  <!-- Light grayish background -->
+    <color name="cardBackground">#1E1E1E</color>  <!-- Dark gray for cards -->
+    <color name="blue">#037ea0</color>  <!-- Light Blue -->
+    <color name="blue2">#4ccbee</color>
+    <color name="textColor">#333333</color>  <!-- Dark gray for text -->
+    <color name="green">#4CAF50</color>
+</resources>

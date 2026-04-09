@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "13349882042",
+    "firebase_url": "https://comuuhh-default-rtdb.firebaseio.com",
+    "project_id": "comuuhh",
+    "storage_bucket": "comuuhh.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13349882042:android:30f6d8e3659da832fa9a83",
+        "android_client_info": {
+          "package_name": "com.example.comfortkeepers"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD50FJiW3dLnS3222Y3C-UJm0-FGaWwXZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13349882042:android:3efa7f0445407239fa9a83",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD50FJiW3dLnS3222Y3C-UJm0-FGaWwXZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13349882042:android:ae68b4658599ce12fa9a83",
+        "android_client_info": {
+          "package_name": "com.example.firebaserbac"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD50FJiW3dLnS3222Y3C-UJm0-FGaWwXZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

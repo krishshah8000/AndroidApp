@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_grey2"
+    tools:context=".MainActivity">
+
+    <!-- Top Bar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/home_grey2"
+        android:title="Doctor Appointment Booking"
+        android:titleTextColor="@android:color/white" />
+
+    <!-- Date Selection -->
+    <LinearLayout
+        android:id="@+id/dateSelectionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Date"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/selectDateButton"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/home_grey5"
+            android:text="Choose Date"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/selectedDateText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="No date selected"
+            android:textColor="@color/textColor"
+            android:textColorHighlight="@color/textColor"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- Slot Selection -->
+    <TextView
+        android:id="@+id/slotTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dateSelectionLayout"
+        android:padding="16dp"
+        android:text="Available Slots"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/scrollViewSlots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/slotTitle"
+        android:contentDescription="Scroll through available slots">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/noSlotsText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="No slots available. Please select a date."
+                android:textColor="@color/textColor"
+                android:textSize="16sp"
+                android:visibility="visible" />
+
+            <GridLayout
+                android:id="@+id/slotsLayout"
+                android:layout_width="match_parent"
+                android:background="@color/home_grey2"
+                android:layout_height="wrap_content"
+                android:columnCount="3"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/bookSlotButton"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/home_grey5"
+                android:text="Book Slot"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

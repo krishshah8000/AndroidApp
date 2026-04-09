@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardBooking"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/home_grey3"
+        android:padding="16dp">
+
+        <TextView android:id="@+id/tvPatientName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Patient Name"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <TextView android:id="@+id/tvBookingDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date: "/>
+
+        <TextView android:id="@+id/tvBookingTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time: "/>
+
+        <TextView android:id="@+id/tvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status: "/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
